@@ -1,0 +1,235 @@
+{
+    "users": [
+      {
+        "userId": "user123",
+        "email": "john.doe@example.com",
+        "ipAddress": "192.168.1.100",
+        "tags": {
+          "department": "Engineering",
+          "location": "New York"
+        },
+        "createdAt": "2024-08-15T10:30:00Z",
+        "lastLoginAt": "2024-08-30T09:15:00Z"
+      },
+      {
+        "userId": "user456",
+        "email": "jane.smith@example.com",
+        "ipAddress": "10.0.0.25",
+        "tags": {
+          "department": "Healthcare",
+          "location": "Los Angeles",
+          "role": "Doctor"
+        },
+        "createdAt": "2024-07-01T14:45:00Z",
+        "lastLoginAt": "2024-08-30T16:20:00Z"
+      },
+      {
+        "userId": "user789",
+        "email": "mike.johnson@example.com",
+        "ipAddress": "172.16.0.50",
+        "tags": {
+          "department": "Government",
+          "location": "Washington DC",
+          "clearance": "Top Secret"
+        },
+        "createdAt": "2024-06-15T09:00:00Z",
+        "lastLoginAt": "2024-08-30T11:30:00Z"
+      },
+      {
+        "userId": "user101",
+        "email": "sarah.lee@example.com",
+        "ipAddress": "192.168.2.200",
+        "tags": {
+          "department": "Research",
+          "location": "Boston",
+          "project": "AI Ethics"
+        },
+        "createdAt": "2024-08-01T13:15:00Z",
+        "lastLoginAt": "2024-08-30T14:45:00Z"
+      },
+      {
+        "userId": "user202",
+        "email": "david.miller@example.com",
+        "ipAddress": "10.1.1.75",
+        "tags": {
+          "department": "Finance",
+          "location": "Chicago",
+          "role": "Analyst"
+        },
+        "createdAt": "2024-07-20T11:30:00Z",
+        "lastLoginAt": "2024-08-30T10:00:00Z"
+      }
+    ],
+    "accessLogs": [
+      {
+        "sessionId": "sess_abc123",
+        "userId": "user123",
+        "startTime": "2024-08-30T09:15:00Z",
+        "endTime": "2024-08-30T10:45:00Z",
+        "duration": 5400,
+        "ipAddress": "192.168.1.100",
+        "accessedFiles": [
+          {
+            "fileHash": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+            "accessTime": "2024-08-30T09:20:15Z"
+          },
+          {
+            "fileHash": "q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6",
+            "accessTime": "2024-08-30T10:05:30Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_def456",
+        "userId": "user456",
+        "startTime": "2024-08-30T16:20:00Z",
+        "endTime": "2024-08-30T17:30:00Z",
+        "duration": 4200,
+        "ipAddress": "10.0.0.25",
+        "accessedFiles": [
+          {
+            "fileHash": "z9x8c7v6b5n4m3l2k1j0h9g8f7d6s5a4",
+            "accessTime": "2024-08-30T16:25:45Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_ghi789",
+        "userId": "user789",
+        "startTime": "2024-08-30T11:30:00Z",
+        "endTime": "2024-08-30T13:00:00Z",
+        "duration": 5400,
+        "ipAddress": "172.16.0.50",
+        "accessedFiles": [
+          {
+            "fileHash": "m1n2b3v4c5x6z7l8k9j0h1g2f3d4s5a6",
+            "accessTime": "2024-08-30T11:45:30Z"
+          },
+          {
+            "fileHash": "p0o9i8u7y6t5r4e3w2q1a2s3d4f5g6h7",
+            "accessTime": "2024-08-30T12:30:15Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_jkl101",
+        "userId": "user101",
+        "startTime": "2024-08-30T14:45:00Z",
+        "endTime": "2024-08-30T16:15:00Z",
+        "duration": 5400,
+        "ipAddress": "192.168.2.200",
+        "accessedFiles": [
+          {
+            "fileHash": "j1k2l3m4n5b6v7c8x9z0a1s2d3f4g5h6",
+            "accessTime": "2024-08-30T15:00:45Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_mno202",
+        "userId": "user202",
+        "startTime": "2024-08-30T10:00:00Z",
+        "endTime": "2024-08-30T11:30:00Z",
+        "duration": 5400,
+        "ipAddress": "10.1.1.75",
+        "accessedFiles": [
+          {
+            "fileHash": "q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6",
+            "accessTime": "2024-08-30T10:15:30Z"
+          },
+          {
+            "fileHash": "z9x8c7v6b5n4m3l2k1j0h9g8f7d6s5a4",
+            "accessTime": "2024-08-30T11:00:15Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_pqr303",
+        "userId": "user123",
+        "startTime": "2024-08-30T14:00:00Z",
+        "endTime": "2024-08-30T15:30:00Z",
+        "duration": 5400,
+        "ipAddress": "192.168.1.100",
+        "accessedFiles": [
+          {
+            "fileHash": "a1s2d3f4g5h6j7k8l9m0n1b2v3c4x5z6",
+            "accessTime": "2024-08-30T14:10:45Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_stu404",
+        "userId": "user456",
+        "startTime": "2024-08-30T09:30:00Z",
+        "endTime": "2024-08-30T11:00:00Z",
+        "duration": 5400,
+        "ipAddress": "10.0.0.25",
+        "accessedFiles": [
+          {
+            "fileHash": "p0o9i8u7y6t5r4e3w2q1a2s3d4f5g6h7",
+            "accessTime": "2024-08-30T09:45:30Z"
+          },
+          {
+            "fileHash": "m1n2b3v4c5x6z7l8k9j0h1g2f3d4s5a6",
+            "accessTime": "2024-08-30T10:30:15Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_vwx505",
+        "userId": "user789",
+        "startTime": "2024-08-30T16:00:00Z",
+        "endTime": "2024-08-30T17:30:00Z",
+        "duration": 5400,
+        "ipAddress": "172.16.0.50",
+        "accessedFiles": [
+          {
+            "fileHash": "j1k2l3m4n5b6v7c8x9z0a1s2d3f4g5h6",
+            "accessTime": "2024-08-30T16:15:45Z"
+          },
+          {
+            "fileHash": "q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6",
+            "accessTime": "2024-08-30T17:00:30Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_yz0606",
+        "userId": "user101",
+        "startTime": "2024-08-30T11:00:00Z",
+        "endTime": "2024-08-30T12:30:00Z",
+        "duration": 5400,
+        "ipAddress": "192.168.2.200",
+        "accessedFiles": [
+          {
+            "fileHash": "z9x8c7v6b5n4m3l2k1j0h9g8f7d6s5a4",
+            "accessTime": "2024-08-30T11:15:30Z"
+          }
+        ]
+      },
+      {
+        "sessionId": "sess_abc707",
+        "userId": "user202",
+        "startTime": "2024-08-30T13:30:00Z",
+        "endTime": "2024-08-30T15:00:00Z",
+        "duration": 5400,
+        "ipAddress": "10.1.1.75",
+        "accessedFiles": [
+          {
+            "fileHash": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+            "accessTime": "2024-08-30T13:45:15Z"
+          },
+          {
+            "fileHash": "p0o9i8u7y6t5r4e3w2q1a2s3d4f5g6h7",
+            "accessTime": "2024-08-30T14:30:45Z"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "apiVersion": "1.0",
+      "generatedAt": "2024-08-30T18:00:00Z",
+      "totalUsers": 5,
+      "totalSessions": 10
+    }
+  }
